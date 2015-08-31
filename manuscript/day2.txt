@@ -1,0 +1,17 @@
+# Day 2 createElement
+
+Let's talk about `React.DOM`. It has a few limitations, mostly that only has components that math HTML elemenents. We can't add to `React.DOM`. We can't do this:
+
+```js
+React.render(React.DOM.greeting({}, "Bob");
+```
+
+For this, we've have `createElement`. `createElement` allows us to use components that we've defined as well as the standard set of HTML elements.
+
+We can write the same example as yesterday using `createElement`:
+
+```js
+React.render(React.createElement('div', {}, 'Hi React'), document.body);
+```
+
+Note that this time, we're using 'div' as an argument. Once we learn how to create React components (tomorrow), we can replace 'div' with the name of our custom component.
