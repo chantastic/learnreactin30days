@@ -1,0 +1,24 @@
+# Day 0: A Simple React Setup
+
+We'll start with a basic HTML page. This setup will be the basis for the early examples in this book.
+
+```
+<!doctypes html>
+<html>
+  <body>
+    <script src="https://fb.me/react-0.13.3.js"></script>
+    <script>
+
+      // your code here
+      console.log(React);
+
+    </script>
+  </body>
+</html>
+```
+
+Let's talk this it.
+
+We have a very basic HTML document with two script tags. The first loads the `react` library and the second is where we'll write our code.
+
+Below that we have a script tag where our code will go. Right now it's logging out the `React` to the browser's dev console.
