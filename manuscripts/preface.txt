@@ -1,0 +1,17 @@
+# Preface
+
+The hardest part of learning JavaScript is picking an entry point.
+
+JavaScript is likely the language you're stuck with. I definitely didn't want to be a JavaScript developer. Other languages seem so clear. You write code, run it, and it does something. JavaScript is inextricably bound to event; you write code and it waits for you.
+
+I was stuck with JavaScript. I tried to be stay "a designer" and keep in the HTML/CSS wheelhouse. But JavaScript got it's tenticles around me. You can't design for todays web without interactivity. And interactivity on the web means JavaScript. Littly by little, I figured out just enough jQuery to do better desigens. Now, I write JavaScript all day.
+
+If you're reading this book, you're probably on a similar path. So, let me tell you why you should consider React.
+
+I like React because it makes user inteface development more predictable. It's small, everything is contained in logical components, and you get reliable errors.
+
+If you're doing UI development in HTML, CSS, and jQuery, this book is for you. It's a bootcamp for understanding the way React works and why it's a great tool for UI developers.
+
+The chapters are short with lots of examples. I recommend following it from start to finish nad then keeping it around as a reference. I still do.
+
+Thanks for reading.
