@@ -1,0 +1,31 @@
+# Day 1: render
+
+`React.render` is where most React applications start.  `render` is used to place a component somewhere on the document. Think it it like so:
+
+```
+React.render(/* What */, /* Where */);
+```
+
+Let's answer those questions, starting with "where".
+
+React will take any DOM element. To keep things simple, let's render our component into `document.body`.
+
+```
+React.render(/* What */, document.body);
+```
+
+Now let's answer the what.
+
+React has made components of all the HTML elements, available in the `React.DOM` object. We can create HTML elements like `div`, `span`, and `h1`, by using `React.DOM.div`, `React.DOM.span`, and `React.DOM.h1`.
+
+Now let's use `React.DOM` to answer the "what".
+
+```
+React.render(React.DOM.h1({}, 'Hi React'), document.body);
+```
+
+You should now see "Hi React" rendered out in your browser.
+
+#### Why the empty object as a first argument?
+
+React components take a number of arguments that give you control over element attributes and data. We'll cover that in future lessons. For now, add it in blind faith.
